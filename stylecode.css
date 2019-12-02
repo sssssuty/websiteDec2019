@@ -8,8 +8,8 @@
     src:url(Songti-SC-Regular.ttf);
 }
 @font-face{
-    font-family: "Mercury Display";
-    src:url(MercuryDisplay-Roman.otf);
+    font-family: "Ogg Roman";
+    src:url(Ogg-Roman.otf);
 }
 
 
@@ -34,26 +34,28 @@
         position: absolute;
         border-radius: 10vw;
         border: 0.3vw solid black;
-        width: 7vw;
-        height: 7vw;
-        margin-top: 4vw;
+        width: 5vw;
+        height: 5vw;
+        margin-top: 5.5vw;
     }
 
     .mynamezh{
         font-family: "Songti SC", serif;
         src:url(Songti-SC-Regular.ttf);
-        font-size: 4.5vw;
-        margin-left: 1.3vw;
-        margin-top: 0.3vw;
+        font-size: 3.5vw;
+        margin-left: 0.75vw;
+        margin-top: 0.25vw;
         margin-right: 0;
     }
 
     .mynameen{
-        font-family: "Mercury Display", serif;
-        src:url(MercuryDisplay-Roman.otf);
+        /*font-family: "Mercury Display", serif;
+        src:url(MercuryDisplay-Roman.otf);*/
+        font-family: "Ogg Roman", sans-serif;
+        src:url(Ogg-Roman.otf);
         font-size: 4vw;
         position: absolute;
-        margin-left: 10vw;
+        margin-left: 7vw;
         margin-right: 40vw;
         margin-top: 5.2vw;
         /*width: 10vw;*/
@@ -71,22 +73,16 @@
         color:black;
     }
 
-    #menuabout{
-        position: absolute;
-        margin-left: 50vw;
-        margin-top: 6vw;
-    }
-
     #menufeaturedwork{
         position: absolute;
-        margin-left: 66vw;
-        margin-top: 6vw;
+        margin-left: 70vw;
+        margin-top: 6.5vw;
     }
 
     #menuarchive{
         position: absolute;
-        margin-left: 82vw;
-        margin-top: 6vw;
+        margin-left: 84vw;
+        margin-top: 6.5vw;
     }
 
     .inputbar{
@@ -101,6 +97,8 @@
     }
 
     #fnamecopy{
+        font-family: "Ogg Roman", sans-serif;
+        src:url(Ogg-Roman.otf);
         position: absolute;
         margin: 0;
         padding: 0;
@@ -146,28 +144,28 @@
 
     .mynamecircle{
         position: absolute;
-        border-radius: 10vw;
+        border-radius: 100vw;
         border: 0.15vw solid black;
-        width: 3.5vw;
-        height: 3.5vw;
-        margin-top: 3.5vw;
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-top: 4.2vw;
     }
 
     .mynamezh{
         font-family: "Songti SC", serif;
         src:url(Songti-SC-Regular.ttf);
-        font-size: 2vw;
-        margin-left: 0.75vw;
-        margin-top: 0.3vw;
+        font-size: 1.5vw;
+        margin-left: 0.5vw;
+        margin-top: 0.2vw;
         margin-right: 0;
     }
 
     .mynameen{
-        font-family: "Mercury Display", serif;
-        src:url(MercuryDisplay-Roman.otf);
-        font-size: 2.4vw;
+        font-family: "Ogg Roman", sans-serif;
+        src:url(Ogg-Roman.otf);
+        font-size: 1.9vw;
         position: absolute;
-        margin-left: 5vw;
+        margin-left: 3vw;
         margin-right: 55vw;
         margin-top: 4vw;
     }
@@ -184,16 +182,10 @@
         color:black;
     }
 
-    #menuabout{
-        position: absolute;
-        margin-left: 0vw;
-        margin-top: 38vw;
-    }
-
     #menufeaturedwork{
         position: absolute;
         margin-left: 0vw;
-        margin-top: 42vw;
+        margin-top: 78vh;
         text-decoration: underline;
         text-decoration-color: white;
     }
@@ -201,7 +193,7 @@
     #menuarchive{
         position: absolute;
         margin-left: 0vw;
-        margin-top: 46vw;
+        margin-top: 85vh;
         text-decoration: underline;
         text-decoration-color: white;
     }
@@ -219,6 +211,8 @@
     }
 
     #fnamecopy{
+        font-family: "Ogg Roman", sans-serif;
+        src:url(Ogg-Roman.otf);
         position: absolute;
         margin: 0;
         padding: 0;

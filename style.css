@@ -103,13 +103,7 @@
     #introman84logo{
         height: 4.5vw;
     }
-
-/*    #menuabout{
-        position: absolute;
-        margin-left: 50vw;
-        margin-top: 6vw;
-    }*/
-
+    
     #menufeaturedwork{
         position: absolute;
         margin-left: 70vw;
@@ -157,8 +151,6 @@
 @media only screen and (min-device-width: 500px){
     body{
         margin:2vw;
-        /*cursor: url("smile.png");*/
-        /*cursor: all-scroll;*/
     }
 
     .top{

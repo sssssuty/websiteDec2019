@@ -1,0 +1,239 @@
+@font-face{
+    font-family: "Radikal Regular";
+    src:url(Radikal.otf);
+}
+
+@font-face{
+    font-family: "Songti SC";
+    src:url(Songti-SC-Regular.ttf);
+}
+@font-face{
+    font-family: "Mercury Display";
+    src:url(MercuryDisplay-Roman.otf);
+}
+
+
+/*mobile*/
+@media only screen and (max-device-width: 500px) {
+    body{
+        margin:3vw;
+    }
+
+    .top{
+        position: fixed;
+        background-color: white;
+        margin: 0;
+        margin-top: -4vw;
+        padding: 0;
+        height: 14vw;
+        width:100vw;
+        z-index: 10;
+    }
+
+    .mynamecircle{
+        position: absolute;
+        border-radius: 10vw;
+        border: 0.3vw solid black;
+        width: 7vw;
+        height: 7vw;
+        margin-top: 4vw;
+    }
+
+    .mynamezh{
+        font-family: "Songti SC", serif;
+        src:url(Songti-SC-Regular.ttf);
+        font-size: 4.5vw;
+        margin-left: 1.3vw;
+        margin-top: 0.3vw;
+        margin-right: 0;
+    }
+
+    .mynameen{
+        font-family: "Mercury Display", serif;
+        src:url(MercuryDisplay-Roman.otf);
+        font-size: 4vw;
+        position: absolute;
+        margin-left: 10vw;
+        margin-right: 40vw;
+        margin-top: 5.2vw;
+        /*width: 10vw;*/
+    }
+
+    .menu{
+        font-family: "Radikal Regular", sans-serif;
+        src:url(Radikal.otf);
+        position: absolute;
+        font-size: 4vw;
+        margin-left: 0vw;
+        margin-right: 3vw;
+        text-decoration: underline;
+        text-decoration-color: white;
+        color:black;
+    }
+
+    #menuabout{
+        position: absolute;
+        margin-left: 50vw;
+        margin-top: 6vw;
+    }
+
+    #menufeaturedwork{
+        position: absolute;
+        margin-left: 66vw;
+        margin-top: 6vw;
+    }
+
+    #menuarchive{
+        position: absolute;
+        margin-left: 82vw;
+        margin-top: 6vw;
+    }
+
+    .inputbar{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 22vw;  
+        font-family: "Radikal Regular", sans-serif;
+        src:url(Radikal.otf);
+        font-size: 6vw;
+        line-height: 7vw;
+    }
+
+    #fnamecopy{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 88vw;
+        /*line-height: 3.5vw;*/
+
+    }
+
+    #fname{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 50vw;
+        height: 10vw;
+        width: 80vw;
+        font-size: 3vw;
+        border: 0.1vw solid #fff;
+        border-bottom: 0.5vw solid #000;
+    }
+
+    
+
+}
+
+
+
+/* desktop layout for larger windows*/
+@media only screen and (min-device-width: 500px){
+    body{
+        margin:2vw;
+    }
+
+    .top{
+        position: fixed;
+        background-color: none;
+        margin: 0;
+        margin-top: -4vw;
+        padding: 0;
+        height: 8.5vw;
+        width:100vw;
+        z-index: 10;
+    }
+
+    .mynamecircle{
+        position: absolute;
+        border-radius: 10vw;
+        border: 0.15vw solid black;
+        width: 3.5vw;
+        height: 3.5vw;
+        margin-top: 3.5vw;
+    }
+
+    .mynamezh{
+        font-family: "Songti SC", serif;
+        src:url(Songti-SC-Regular.ttf);
+        font-size: 2vw;
+        margin-left: 0.75vw;
+        margin-top: 0.3vw;
+        margin-right: 0;
+    }
+
+    .mynameen{
+        font-family: "Mercury Display", serif;
+        src:url(MercuryDisplay-Roman.otf);
+        font-size: 2.4vw;
+        position: absolute;
+        margin-left: 5vw;
+        margin-right: 55vw;
+        margin-top: 4vw;
+    }
+
+    .menu{
+        font-family: "Radikal Regular", sans-serif;
+        src:url(Radikal.otf);
+        font-size: 2.5vw;
+        margin-left: 0vw;
+        margin-right: 3vw;
+        position: absolute;
+        text-decoration: underline;
+        text-decoration-color: white;
+        color:black;
+    }
+
+    #menuabout{
+        position: absolute;
+        margin-left: 0vw;
+        margin-top: 38vw;
+    }
+
+    #menufeaturedwork{
+        position: absolute;
+        margin-left: 0vw;
+        margin-top: 42vw;
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+
+    #menuarchive{
+        position: absolute;
+        margin-left: 0vw;
+        margin-top: 46vw;
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+
+    .inputbar{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        font-family: "Radikal Regular", sans-serif;
+        src:url(Radikal.otf);
+        font-size: 3vw;
+        line-height: 3.5vw;
+        margin-top: 14vw;
+        margin-left: 24vw;
+    }
+
+    #fnamecopy{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 72vw;
+    }
+
+    #fname{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-top: 18vw;
+        height: 5vw;
+        /*width: 80vw;*/
+        font-size: 3vw;
+        border: 0.1vw solid #fff;
+        border-bottom: 0.5vw solid #000;
+    }
+}

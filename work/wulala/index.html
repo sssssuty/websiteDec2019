@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wulala</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8"/>
+</head>
+<body>
+        <img id = "arrow0" class = "arrowclass" src = "next.png" style="position:absolute; left:77vw; top:3vw; width:3vw; transform:rotate(-90deg);animation: mymove 1s infinite;">
+        <img id = "arrow1" class = "arrowclass" src = "next.png" style="position:absolute; left:84vw; top:3vw; width:3vw; transform:rotate(-90deg);animation: mymove 1s infinite;">
+        <img id = "arrow2" class = "arrowclass" src = "next.png" style="position:absolute; left:91vw; top:3vw; width:3vw; transform:rotate(-90deg);animation: mymove 1s infinite;">
+        <img id = "arrow3" class = "arrowclass" src = "next.png" style="position:absolute; left:5vw; top:3vw; width:3vw; transform:rotate(-90deg);animation: mymove 1s infinite;">
+        <img id = "arrow4" class = "arrowclass" src = "next.png" style="position:absolute; left:9vw; top:3vw; width:3vw; transform:rotate(-90deg);animation: mymove 1s infinite;">
+        <img id = "arrow5" class = "arrowclass" src = "next.png" style="position:absolute; left:19vw; top:3vw; width:3vw; transform:rotate(-90deg);animation: mymove 1s infinite;">
+
+        <div id ="head">
+            <div id = "colorOptions">
+                onclick="pos<!-- itionFunction1()" -->
+                <div class="option" onclick="colorFunction()" style="background-color: rgb(0, 0, 0);"></div>
+            </div>
+            <div id = "strokeOptions">
+                 <!-- onclick="positionFunction2()" -->
+                <div class="option1" onclick="strokeFunction()" style="width: 3vw; height: 1vw; color: white;"></div>
+            </div>
+            <div id = "fontOptions">
+                 <!-- onclick="positionFunction3()" -->
+                <img class= "fontclass" id = "helv" onclick = "fontFunction()" src = "mabry.png">
+                <img class= "fontclass" id = "times" onclick = "fontFunction1()" src = "times.png">
+                <img class= "fontclass" id = "helv" onclick = "fontFunction2()" src = "janitor.png">
+                <img class= "fontclass" id = "times" onclick = "fontFunction3()" src = "ninja.png">
+                <img class= "fontclass" id = "helv" onclick = "fontFunction4()" src = "orb.png">
+                <img class= "fontclass" id = "times" onclick = "fontFunction5()" src = "italianno.png">
+                <img class= "fontclass" id = "helv" onclick = "fontFunction6()" src = "liujian.png">
+                <img class= "fontclass" id = "times" onclick = "fontFunction7()" src = "grand.png">
+            </div>
+            <div id = "search">
+                <!--  onclick="positionFunction4()" -->
+                <img id = "save" onclick = "saveFunction()" src = "save.png">
+                <img id = "erase" onclick = "eraseFunction()" src = "eraser.png">
+                <input id = "city" value = "New York"> </input>
+                <p id = "submit">+</p>
+            </div>
+        </div>
+
+        <div id = "tutorial">
+            <p id="welcomehead" style="font-size: 5vw; position:absolute; left:9.7vw; top:15vw;">Hi my dear painter, welcome!</p>
+            <img id = "next" onclick = "nextFunction()" src = "next.png" style="font-size: 5vw; position:absolute; left:87vw; top:15.7vw;width:3vw;">
+            <p class="welcomeline" id="welcomeline0" style="font-size: 3vw; position:absolute; left:9.7vw; top:25vw;"></p>
+            <p class="welcomeline" id="welcomeline1" style="font-size: 3vw; position:absolute; left:9.7vw; top:25vw;"></p>
+            <p class="welcomeline" id="welcomeline2" style="font-size: 3vw; position:absolute; left:9.7vw; top:25vw;"></p>
+            <p class="welcomeline" id="welcomeline3" style="font-size: 3vw; position:absolute; left:9.7vw; top:25vw;"></p>
+            <p class="welcomeline" id="welcomeline4" style="font-size: 3vw; position:absolute; left:9.7vw; top:25vw;"></p>
+        </div>
+
+        <div id="error"></div>
+        <audio id="myAudio1"><source src="1.wav" type="audio/mpeg"></audio>
+        <audio id="myAudio2"><source src="2.wav" type="audio/mpeg"></audio>
+        <audio id="myAudio3"><source src="3.wav" type="audio/mpeg"></audio>
+
+    <script src="main.js"></script>
+</body>
+</html>
